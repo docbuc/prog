@@ -1,0 +1,9 @@
+# Datei: php-fpm/docker-compose.override.yml
+version: '3'
+services:
+  php:
+    volumes:
+      - ./www:/var/www/html
+  nginx:
+    volumes:
+      - ./www:/var/www/html
