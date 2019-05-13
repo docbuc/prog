@@ -1,5 +1,5 @@
-# Datei: nodejs/Dockerfile
-FROM node:10
+# Datei: prog/nodejs/Dockerfile (docbuc/printheadlines:node)
+FROM node:12
 WORKDIR /src
 RUN chown node:node /src
 USER node

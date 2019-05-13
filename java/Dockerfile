@@ -1,8 +1,9 @@
-# Datei: java/Dockerfile
-FROM openjdk:8
+# Datei: prog/java/Dockerfile (docbuc/printheadlines:java)
+FROM openjdk:12
+RUN adduser -r java
 WORKDIR /src
-RUN chown www-data:www-data /src
-USER www-data
+RUN chown java /src
+USER java
 ENV JSOUP_VER 1.11.3
 
 RUN curl -SL https://jsoup.org/packages/jsoup-$JSOUP_VER.jar \

@@ -1,4 +1,4 @@
-# Datei: python-legacy/Dockerfile
+# Datei: prog/python-legacy/Dockerfile (docbuc/python-legacy)
 FROM python:2.7
 RUN pip install --no-cache-dir matplotlib==2.1.2
 WORKDIR /tmp

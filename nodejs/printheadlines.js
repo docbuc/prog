@@ -1,4 +1,4 @@
-// Datei: nodejs/printheadlines.js
+// Datei: prog/nodejs/printheadlines.js
 
 const Parser = require('rss-parser')
   parser = new Parser()

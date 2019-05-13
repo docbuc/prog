@@ -1,4 +1,4 @@
-# Datei: php-fpm/docker-compose.override.yml
+# Datei: prog/php-fpm/docker-compose.override.yml
 version: '3'
 services:
   php:

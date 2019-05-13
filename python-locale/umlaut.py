@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Datei: python-locale/umlaut.py
+# Datei: prog/python-locale/umlaut.py
 
 import time, locale
 locale.setlocale(locale.LC_TIME, 'de_DE.UTF-8')

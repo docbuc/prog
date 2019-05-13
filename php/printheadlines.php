@@ -1,5 +1,5 @@
 <?php
-// Datei: php/printheadlines.php
+// Datei: prog/php/printheadlines.php
 
 use Zend\Feed\Reader\Reader;
 

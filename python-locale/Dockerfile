@@ -1,4 +1,4 @@
-# Datei: python-locale/Dockerfile
+# Datei: prog/python-locale/Dockerfile (docbuc/python-locale)
 FROM python:3
 WORKDIR /src
 RUN apt-get update \

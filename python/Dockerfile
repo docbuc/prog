@@ -1,6 +1,5 @@
-# Datei: python/Dockerfile
+# Datei: prog/python/Dockerfile (docbuc/printheadlines:python)
 FROM python:3
-
 WORKDIR /src
 RUN pip install --no-cache-dir feedparser
 COPY printheadlines.py /src/

@@ -1,3 +1,4 @@
+# Datei: prog/php/Dockerfile (docbuc/printheadlines:php)
 FROM debian:stretch-slim
 RUN apt-get update && apt-get install -y \
   composer \
