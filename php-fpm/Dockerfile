@@ -1,5 +1,5 @@
 # Datei: prog/php-fpm/Dockerfile (docbuc/php-fpm:alpine-exif)
-FROM php:7-fpm-alpine3.9
+FROM php:7-fpm-alpine
 RUN curl -sS https://getcomposer.org/installer \
   | php -- --install-dir=/usr/bin --filename=composer
 RUN docker-php-ext-install exif

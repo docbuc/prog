@@ -1,10 +1,10 @@
 # Datei: prog/php/Dockerfile (docbuc/printheadlines:php)
-FROM debian:stretch-slim
-RUN apt-get update && apt-get install -y \
+FROM debian:buster-slim
+RUN apt-get update && apt-get install -y --no-install-recommends\
   composer \
-  php7.0 \
-  php7.0-dom \
-  php7.0-zip \
+  php7.3 \
+  php7.3-dom \
+  php7.3-zip \
   unzip \
   && rm -rf /var/lib/apt/lists/*
 RUN useradd -ms /bin/bash php7
