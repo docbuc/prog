@@ -1,9 +1,9 @@
 # Datei: prog/nodejs/Dockerfile (docbuc/printheadlines:node)
-FROM node:12
+FROM node:16
 WORKDIR /src
 RUN chown node:node /src
 USER node
-COPY package.json package-lock.json /src/
+COPY --chown=node:node package.json package-lock.json /src/
 RUN npm i
 COPY printheadlines.js /src/
 CMD [ "node", "printheadlines.js" ]
