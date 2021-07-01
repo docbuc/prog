@@ -1,5 +1,5 @@
 # Datei: prog/ruby/Dockerfile (docbuc/printheadlines:ruby)
-FROM ruby:2
+FROM ruby:3
 RUN gem install feedjira httparty
 WORKDIR /src
 COPY printheadlines.rb /src/
