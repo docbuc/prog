@@ -13,7 +13,7 @@ public class printheadlines {
     System.out.println("Fetching "+ url);
 
     Document doc = Jsoup.connect(url).get();
-    Elements news = doc.select("li.archiv-liste__item");
+    Elements news = doc.select("article.a-article-teaser");
 
     System.out.println("\nNews: "+ news.size());
     for (Element item : news) {
